@@ -1,0 +1,30 @@
+*{
+margin:0;
+}
+body{
+background-image: url("bg.jpg");
+width:100%;
+height:100vh;
+background-size:cover;
+display: table;
+}
+
+.main{
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+width:30%;
+}
+fieldset{
+background:rgba(17,19,255,.4);
+}
+@media screen and (max-width: 480px) {
+    h1,p {
+        color:white;
+    }
+    .main{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    }
+}
